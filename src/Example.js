@@ -1,7 +1,6 @@
-import { useState } from "react";
-import React from "react";
+import React, { useState } from "react";
 
-export default function Example() {
+export default function Example(props) {
   const [count, setCount] = useState(0);
 
   return (

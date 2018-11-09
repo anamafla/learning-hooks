@@ -3,6 +3,7 @@ import Example from "./Example";
 import Greeting from "./Greeting";
 
 import "./App.css";
+import LightBulb from "./LightBulb";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <h1> Learning Hooks </h1>
         <Example />
         <Greeting />
+        <LightBulb />
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Example from "./Example";
 import Greeting from "./Greeting";
+import ExampleUseEffect from "./ExampleUseEffect";
 
 import "./App.css";
 import LightBulb from "./LightBulb";
@@ -13,6 +14,7 @@ class App extends Component {
         <Example />
         <Greeting />
         <LightBulb />
+        <ExampleUseEffect />
       </div>
     );
   }

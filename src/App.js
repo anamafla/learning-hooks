@@ -5,6 +5,7 @@ import ExampleUseEffect from "./ExampleUseEffect";
 
 import "./App.css";
 import LightBulb from "./LightBulb";
+import ExampleUseContext from "./ExampleUseContext";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Greeting />
         <LightBulb />
         <ExampleUseEffect />
+        <ExampleUseContext />
       </div>
     );
   }
